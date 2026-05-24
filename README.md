@@ -1,42 +1,23 @@
 # AI Skating Schedule Assistant
 
-A multi-source AI agent built with n8n + Claude that automatically collects figure skating schedules from webpages, images, and APIs, normalizes the data into structured JSON, and sends a daily skating digest email.
+![Email Output](email-output.png)
 
-# Workflow Overview
+An AI-powered skating schedule assistant that collects skating sessions and sends a daily skating digest email. Built with n8n + Claude. 
+
+---
+
+# Architecture
 
 ![Workflow](workflow-overview.png)
 
 ---
 
-## Features
+# Features
 
-- Multi-source ingestion
-- HTML scraping
-- OCR/image schedule extraction
-- Daysmart API parsing
-- Unified session normalization
-- Daily email digest
-- Freestyle/public session detection
+- Multi-source ingestion from webpages, images, and APIs
+- OCR/image extraction
+- API parsing
+- Unified JSON normalization
+- Automated daily digest emails
+- AI-powered schedule extraction
 
----
-
-## Architecture
-
-```text
-Sources List
-↓
-Fetch Source
-↓
-Attach Metadata
-↓
-Switch
-├── API Parser
-└── AI Extractor
-↓
-Normalize Sessions
-↓
-Prepare Email Input
-↓
-Email Writer
-↓
-Gmail
