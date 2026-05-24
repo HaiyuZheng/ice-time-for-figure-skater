@@ -2,7 +2,7 @@
 
 An AI-powered skating schedule assistant that collects skating sessions and sends a daily skating digest email. Built with n8n + Claude. 
 
-![Email](email output.png)
+![Email](email_output.png)
 
 ---
 
