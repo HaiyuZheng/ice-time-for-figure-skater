@@ -4,13 +4,13 @@ An AI-powered skating schedule assistant that collects skating sessions and send
 
 ![Email](email_output.png)
 
----
+
 
 # Architecture
 
 ![Workflow](workflow-overview.png)
 
----
+
 
 # Features
 
