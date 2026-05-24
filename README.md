@@ -1,6 +1,6 @@
-# AI Skating Schedule Assistant
+# IceTime for Figure Skater ⛸️✨
 
-An AI-powered skating schedule assistant that collects skating sessions and sends a daily skating digest email. Built with n8n + Claude. 
+An AI-powered skating schedule assistant that automatically collects skating sessions from your nearby rink websites, images, and APIs, then sends a clean daily skating digest.
 
 ![Email](email_output.png)
 
