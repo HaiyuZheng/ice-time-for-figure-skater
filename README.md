@@ -2,6 +2,10 @@
 
 A multi-source AI agent built with n8n + Claude that automatically collects figure skating schedules from webpages, images, and APIs, normalizes the data into structured JSON, and sends a daily skating digest email.
 
+# Workflow Overview
+
+![Workflow](workflow-overview.png)
+
 ---
 
 ## Features
